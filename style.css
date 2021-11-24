@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAFA;
+
+
+}
+
+
+header {
+
+    width: 100%;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 4px 0 rgb(0 0 20%);
+    box-shadow: 0 0 4px 0 rgb(0 0 20%);
+    z-index: 1000;
+    -webkit-backdrop-filter: blur(10px);
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #000000;
+    margin: 0.5px;
+}
+
+.site-brand {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav li {
+    display: inline-block;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    opacity: 1;
+    -webkit-transition: 0.2s ease opacity;
+    transition: 0.2s ease opacity;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav .navbar {
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .navbar a {
+
+    color: #000000;
+    margin-right: 10px;
+    text-decoration: underline 0.15rem #000000;
+    padding-bottom: 5px;
+    transition: text-decoration-color 300ms;
+}
+
+nav .navbar a:hover {
+    text-decoration-color: #ffffff;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("salle2.jpeg");
+    background-size: cover;
+    color: #000000;
+    padding: 250px;
+
+}
+
+.home h1 {
+    font-size: 50px;
+    color: #FFD700;
+    text-shadow: 0 0 0.5rem black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home h2 {
+
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid #FFD700;
+    color: #FFD700;
+    text-shadow: 0 0 1rem black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #FFD700;
+    border: none;
+    margin-bottom: 30px;
+    outline: none;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 2rem;
+    box-shadow: 0 0 0.5rem black;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main .content .card .left {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+
+
+}
+
+.main .content .card .right img {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.info-title {
+    color: #000000;
+    text-align: center;
+    font-size: 65px;
+    padding: 50px 20px 120px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+}
+
+.info-card {
+    width: 350px;
+    height: auto;
+    margin: 0 20px 80px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-info-photo {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.info-card h2 {
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 5px;
+}
+
+.info-card h3 {
+    text-align: center;
+}
+
+.info-card p {
+    color: #333333;
+    text-align: center;
+    font-size: 19px;
+    padding: 0 5px 15px;
+}
+section .video{
+
+}
+h2{
+    text-align: center;
+}
+
+iframe.video-muscu {
+    display: block;
+    margin: auto;
+
+
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;;
+}
+
+footer h1 {
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+footer .services {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .services .service {
+    margin-right: 30px;
+}
+
+footer .services .service p {
+    max-width: 300px;
+}
+
+footer .services .service ul {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+
+form {
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+form h1 {
+    font-size: 20px;
+}
+
+form .separation {
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+form .corps-formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+form .corps-formulaire .groupe {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #000000;
+    border-radius: 5px;
+}
+
+form .corps-formulaire .gauche .groupe i {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #000000;
+}
+
+form .corps-formulaire .droite {
+    margin-left: 40px;
+}
+
+form .corps-formulaire .droite .groupe {
+    height: 100%;
+}
+
+form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #000000;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+}
+
+form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+form .pied-formulaire button:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 920px) {
+    form .corps-formulaire .droite {
+        margin-left: 0px;
+    }
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 400px;
+    margin-top: 100px;
+
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: top;
+
+}
+
+
+
+
+
